@@ -15,6 +15,7 @@
 		B89F11CA1CF00001000FC891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89F11C81CF00001000FC891 /* LaunchScreen.storyboard */; };
 		B89F11D51CF00001000FC891 /* YSHPopOverViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B89F11D41CF00001000FC891 /* YSHPopOverViewTests.m */; };
 		B89F11E01CF00001000FC891 /* YSHPopOverViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B89F11DF1CF00001000FC891 /* YSHPopOverViewUITests.m */; };
+		B89F11F31CF00379000FC891 /* YSHPopOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = B89F11F21CF00379000FC891 /* YSHPopOverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B89F11DB1CF00001000FC891 /* YSHPopOverViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSHPopOverViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89F11DF1CF00001000FC891 /* YSHPopOverViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHPopOverViewUITests.m; sourceTree = "<group>"; };
 		B89F11E11CF00001000FC891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89F11F11CF00379000FC891 /* YSHPopOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHPopOverView.h; sourceTree = "<group>"; };
+		B89F11F21CF00379000FC891 /* YSHPopOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHPopOverView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		B89F11B91CF00001000FC891 /* YSHPopOverView */ = {
 			isa = PBXGroup;
 			children = (
+				B89F11F01CF00379000FC891 /* YSHPopOverView */,
 				B89F11BD1CF00001000FC891 /* AppDelegate.h */,
 				B89F11BE1CF00001000FC891 /* AppDelegate.m */,
 				B89F11C01CF00001000FC891 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				B89F11E11CF00001000FC891 /* Info.plist */,
 			);
 			path = YSHPopOverViewUITests;
+			sourceTree = "<group>";
+		};
+		B89F11F01CF00379000FC891 /* YSHPopOverView */ = {
+			isa = PBXGroup;
+			children = (
+				B89F11F11CF00379000FC891 /* YSHPopOverView.h */,
+				B89F11F21CF00379000FC891 /* YSHPopOverView.m */,
+			);
+			path = YSHPopOverView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B89F11C21CF00001000FC891 /* ViewController.m in Sources */,
+				B89F11F31CF00379000FC891 /* YSHPopOverView.m in Sources */,
 				B89F11BF1CF00001000FC891 /* AppDelegate.m in Sources */,
 				B89F11BC1CF00001000FC891 /* main.m in Sources */,
 			);
